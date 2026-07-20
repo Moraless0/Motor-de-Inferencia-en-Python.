@@ -148,7 +148,3 @@ El problema es una **contradicción lógica**: el sistema produciría diagnósti
 3. Usando un factor de confianza diferenciado y una política de resolución de conflictos explícita.
 
 ---
-
-## Autor
-
-Proyecto académico generado para la actividad *Motor de Inferencia en Python*.
