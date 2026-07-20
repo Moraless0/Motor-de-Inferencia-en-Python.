@@ -1,7 +1,5 @@
 # Sistema Experto — Diagnóstico de Problemas Técnicos en Computadoras
 
-Proyecto desarrollado en **Python puro** (sin librerías externas) como ejercicio académico de construcción de un motor de inferencia desde cero.
-
 ---
 
 ## Componentes del sistema experto
@@ -137,22 +135,7 @@ R3: SI objetivo = desarrollo_videojuegos ENTONCES recomendar C# con Unity o C++
 
 ### 10. Dibuja la red de inferencia correspondiente a las 3 reglas anteriores
 
-```text
-          desarrollo_web
-                |
-                v
-    [R1]  recomendar: Python o JavaScript
-
-          analisis_de_datos
-                |
-                v
-    [R2]  recomendar: Python
-
-          desarrollo_videojuegos
-                |
-                v
-    [R3]  recomendar: C# con Unity o C++
-```
+![Red de inferencia](img/diagrama.png)
 
 Nodos: `desarrollo_web`, `analisis_de_datos`, `desarrollo_videojuegos`, `Python o JavaScript`, `Python`, `C# con Unity o C++`. Aristas: cada objetivo apunta a su recomendación a través de su regla.
 
